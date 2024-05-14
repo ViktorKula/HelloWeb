@@ -1,0 +1,84 @@
+.body {
+    margin: 0;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+    padding: 0px 100px;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.header{
+    height: 100%;
+    width: 100%;
+    float: left;
+    padding: 2px 1em 0 1em;
+    background: #101010 url(image/pt.png) no-repeat 50% 0%;
+
+
+}
+.logo-container{
+    height: 100%;
+    width:auto;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #101010;
+}
+
+.logo-container h1{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 40px;
+    color: white;
+}
+
+.content{
+    float:left;
+    height: 100%;
+    margin: 4px 10px 2px 0px;
+    border:1px solid #CCC;
+    padding:6px;
+    position:static;
+}
+
+.about{
+    float:right;
+    height: 10%;
+    margin: 4px 10px 2px 0px;
+    border:1px solid #CCC;
+    padding:5px;
+    position: relative;
+    top: 4px; left: 4px;
+}
+
+
+.contacts{
+    float:inline-start;
+    height: 10%;
+    margin: 10px 20px 30px 40px;
+    border:1px solid #CCC;
+    padding:5px;
+    position: relative;
+    top: 4px; left: 4px;
+}
